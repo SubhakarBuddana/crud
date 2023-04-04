@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/SubhakarBuddana/crud-go/api"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/pedrocmart/crud-go/api"
 )
 
 func main() {

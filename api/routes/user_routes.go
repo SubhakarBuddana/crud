@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/pedrocmart/crud-go/api/controllers"
+	"github.com/SubhakarBuddana/crud-go/api/controllers"
 )
 
 type UserRoutes interface {

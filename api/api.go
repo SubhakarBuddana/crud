@@ -6,13 +6,13 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/SubhakarBuddana/crud-go/api/controllers"
+	"github.com/SubhakarBuddana/crud-go/api/database"
+	"github.com/SubhakarBuddana/crud-go/api/repository"
+	"github.com/SubhakarBuddana/crud-go/api/routes"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/pedrocmart/crud-go/api/controllers"
-	"github.com/pedrocmart/crud-go/api/database"
-	"github.com/pedrocmart/crud-go/api/repository"
-	"github.com/pedrocmart/crud-go/api/routes"
 )
 
 var (

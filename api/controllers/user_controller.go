@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/SubhakarBuddana/crud-go/api/models"
+	"github.com/SubhakarBuddana/crud-go/api/repository"
+	"github.com/SubhakarBuddana/crud-go/api/utils"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
-	"github.com/pedrocmart/crud-go/api/models"
-	"github.com/pedrocmart/crud-go/api/repository"
-	"github.com/pedrocmart/crud-go/api/utils"
 )
 
 type UserController interface {

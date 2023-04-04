@@ -3,9 +3,9 @@ package repository
 import (
 	"time"
 
+	"github.com/SubhakarBuddana/crud-go/api/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"github.com/pedrocmart/crud-go/api/models"
 )
 
 type UserRepository interface {

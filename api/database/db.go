@@ -3,9 +3,9 @@ package database
 import (
 	"log"
 
+	"github.com/SubhakarBuddana/crud-go/api/database/config"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"github.com/pedrocmart/crud-go/api/database/config"
 )
 
 func Connect() *gorm.DB {
